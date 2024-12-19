@@ -14,7 +14,7 @@ const buttonShowcaseData = [
       title: 'Primary Button',
       description: 'Classic, solid button with hover and focus states',
       
-      component: <PrimaryButton>Click Me</PrimaryButton>,
+      component: <PrimaryButton>Click Me!</PrimaryButton>,
       code: buttonCode.primary
     },
     {
