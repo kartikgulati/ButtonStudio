@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ButtonShowcaseData from '../ui/ButtonShowCaseData';
+import ButtonShowcaseData from '../ui/ButtonShowcaseData';
 
 
 function ButtonShowcase() {
