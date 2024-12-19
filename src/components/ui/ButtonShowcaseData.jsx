@@ -7,7 +7,7 @@ import OutlineButton from '../ui/buttons/OutlineButton';
 import IconButton from '../ui/buttons/IconButton';
 import RoundedButton from '../ui/buttons/RoundedButton';
 import GlowButton from '../ui/buttons/GlowButton';
-import { buttonCode } from './ButtonCode';
+import { buttonCode } from './buttonCode';
 
 const buttonShowcaseData = [
     {
