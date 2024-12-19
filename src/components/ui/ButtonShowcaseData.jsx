@@ -63,7 +63,7 @@ const buttonShowcaseData = [
 
 
 
-const ButtonShowCaseData = () => {
+const ButtonShowcaseData = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const postPerPage = 6;
 
@@ -123,6 +123,6 @@ const ButtonShowCaseData = () => {
   );
 };
 
-export default ButtonShowCaseData;
+export default ButtonShowcaseData;
 
 

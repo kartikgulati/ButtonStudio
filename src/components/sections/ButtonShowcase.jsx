@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-
-import ButtonShowCaseData from '../ui/ButtonShowCaseData';
+import ButtonShowcaseData from '../ui/ButtonShowCaseData';
 
 
 function ButtonShowcase() {
@@ -17,7 +16,7 @@ function ButtonShowcase() {
 
         <div>
           
-          <ButtonShowCaseData />
+          <ButtonShowcaseData />
           
 
         </div>
