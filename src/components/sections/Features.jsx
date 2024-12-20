@@ -10,8 +10,8 @@ const featuresList = [
 
 const Features = () => {
   return (
-    <section id="features" className="py-20 bg-white">
-      <div className="container mx-auto px-6">
+    <section id="features" className="py-6 bg-white">
+      <div className="container mx-auto px-2">
         <h2 className="text-4xl font-bold text-center mb-16">Our Promise</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {featuresList.map((feature, index) => (
