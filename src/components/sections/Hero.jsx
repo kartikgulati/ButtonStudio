@@ -5,13 +5,25 @@ import Button from '../ui/Button';
 const Hero = () => {
   return (
     <section id="home" className="pt-24 bg-gradient-to-br from-indigo-500 to-purple-600 text-white min-h-screen flex items-center">
-      <div className="container mx-auto px-6 py-20">
+
+      <div className="container mx-auto px-6 py-20 w-max">
         <div className="text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-8">Welcome to ButtonStudio</h1>
+
+          
+  <div className="w-max mx-auto">
+    <h1 className="relative w-[max-content] font-mono
+before:absolute before:inset-0 before:animate-typewriter
+after:absolute after:inset-0 after:w-[0.125em] after:animate-caret
+after:bg-black">Welcome to ButtonStudio...</h1>
+  </div>
+
+
+          
           <p className="text-xl mb-12 text-indigo-100">Beautiful web library of button components. Built on top of the power of React and Tailwind CSS. <br/>Customize, create, and share.</p>
           <div className="flex flex-wrap justify-center gap-4">
 
-            <a href="#buttons"><Button variant="primary">Get Started</Button></a> 
+            <a href="#buttons"><Button variant="primary" >Get Started</Button></a> 
             <a href="#features"><Button variant="outline">Learn More</Button></a> 
           </div>
         </div>
