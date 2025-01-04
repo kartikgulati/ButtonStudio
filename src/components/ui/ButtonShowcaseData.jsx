@@ -65,7 +65,7 @@ const buttonShowcaseData = [
 
 const ButtonShowcaseData = () => {
   const [currentPage, setCurrentPage] = useState(1);
-  const postPerPage = 6;
+  const postPerPage = 12;
 
   const lastPostIndex = currentPage * postPerPage;
   const firstPostIndex = lastPostIndex - postPerPage;
