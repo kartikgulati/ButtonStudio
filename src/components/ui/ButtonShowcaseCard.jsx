@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Copy } from 'lucide-react';
 
-const ButtonShowcaseCard = ({ title, description, component, code }) => {
+const ButtonShowcaseCard = ({ title, description, component, code, dev }) => {
   const [isCopied, setIsCopied] = useState(false);
 
 
@@ -32,7 +32,7 @@ const ButtonShowcaseCard = ({ title, description, component, code }) => {
       <h3 className="text-xl font-semibold mb-3">{title}</h3>
       <p className="text-gray-600 mb-1 text-sm">{description}</p>
       <div className='mb-3'>
-        <p className="text-gray-600 mb-1 text-xs"><b>Developer:</b> @{title}</p>
+        <p className="text-gray-600 mb-1 text-xs"><b>Developer:</b> @{dev}</p>
       </div>
       <div className="flex justify-center items-center min-h-[60px]">
         {component}

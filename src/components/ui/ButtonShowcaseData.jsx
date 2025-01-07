@@ -15,19 +15,22 @@ const buttonShowcaseData = [
       description: 'Classic, solid button with hover and focus states',
       
       component: <PrimaryButton>Click Me!</PrimaryButton>,
-      code: buttonCode.primary
+      code: buttonCode.primary,
+      dev: 'Kartik Gulati'
     },
     {
       title: 'Gradient Button',
       description: 'Beautiful gradient button with scale animation',
       component: <GradientButton>Get Started</GradientButton>,
-      code: buttonCode.gradient
+      code: buttonCode.gradient,
+      dev: 'Kartik Gulati'
     },
     {
       title: 'Outline Button',
       description: 'Bordered button that fills on hover',
       component: <OutlineButton>Learn More</OutlineButton>,
-      code: buttonCode.outline
+      code: buttonCode.outline,
+      dev: 'Kartik Gulati'
     },
     {
       title: 'Icon Buttons',
@@ -38,25 +41,29 @@ const buttonShowcaseData = [
           <IconButton icon={Send}>Send</IconButton>
         </div>
       ),
-      code: buttonCode.iconbutton
+      code: buttonCode.iconbutton,
+      dev: 'Kartik Gulati'
     },
     {
       title: 'Rounded Button',
       description: 'Pill-shaped button with scale effect',
       component: <RoundedButton>Subscribe Now</RoundedButton>,
-      code: buttonCode.rounded
+      code: buttonCode.rounded,
+      dev: 'Kartik Gulati'
     },
     {
       title: 'Glow Button',
       description: 'Button with a pulsing glow effect',
       component: <GlowButton>Explore</GlowButton>,
-      code: buttonCode.glow
+      code: buttonCode.glow,
+      dev: 'Kartik Gulati'
     },
     {
         title: 'Glow Button',
         description: 'Button with a pulsing glow effect',
         component: <GlowButton>Explore</GlowButton>,
-        code: buttonCode.glow
+        code: buttonCode.glow,
+        dev: 'Kartik Gulati'
       }
 ];
 
