@@ -4,7 +4,7 @@ import Button from '../ui/Button';
 
 const Hero = () => {
   return (
-    <section id="home" className="bg-gray-900 text-white py-20" style={{ backgroundImage: `url("https://i.postimg.cc/15fhXMvH/Black-Modern-Gradient-Programmer-Presentation.jpg")`, backgroundSize: "cover", backgroundReapet:"no-repeat" }}>
+    <section id="home" className="bg-[#001524] text-white py-20" >
 
 
 
@@ -38,7 +38,7 @@ const Hero = () => {
 
       <div className="w-full md:w-1/2 flex items-center justify-center">
       <div className='p-8'>
-      <img src="https://i.postimg.cc/2ys6jxq8/Green-Teal-Geometric-Modern-Computer-Programmer-Code-Editor-Quotes-Instagram-Post-1.png" alt="Contact Us" className="max-w-full h-auto shadow-[16px_16px_5px_0px_rgba(255,_255,_255,_0.55)] rounded-xl " />
+      <img src="https://i.postimg.cc/2ys6jxq8/Green-Teal-Geometric-Modern-Computer-Programmer-Code-Editor-Quotes-Instagram-Post-1.png" alt="Contact Us" className="max-w-full h-auto rounded-xl " />
       </div>
         
       </div>

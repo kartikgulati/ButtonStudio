@@ -179,7 +179,7 @@ const ContactForm = () => {
 
 
     <div className="flex flex-wrap min-h-screen">
-      <div className="w-full md:w-1/2 flex items-center justify-center bg-gray-900">
+      <div className="w-full md:w-1/2 flex items-center justify-center bg-[#001524]">
       <div className='p-8'>
       <img src="https://i.postimg.cc/02NkRVQr/img-light.png" alt="Contact Us" className="max-w-full h-auto shadow-[16px_16px_5px_0px_rgba(255,_255,_255,_0.55)]" />
       </div>

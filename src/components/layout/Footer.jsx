@@ -65,7 +65,7 @@ const Footer = () => {
 
   
 
-<footer className="bg-white dark:bg-gray-900">
+<footer className="bg-white dark:bg-[#001524]">
     <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
     <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
         <div className="md:flex md:justify-between">
@@ -92,7 +92,7 @@ const Footer = () => {
               </div>
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                  <div className="flex space-x-4">
+                  <div className="pace-x-4">
                 {socialLinks.map((link, index) => (
                 <SocialLink key={index} {...link} />
               ))}
