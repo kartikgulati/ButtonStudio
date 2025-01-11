@@ -185,11 +185,11 @@ const ContactForm = () => {
       </div>
         
       </div>
-      <div className="w-full md:w-1/2 flex items-center justify-center p-6">
+      <div className="w-full md:w-1/2 flex items-center justify-center p-6 bg-[#001524]">
       
-      <form ref={form} onSubmit={sendEmail} className="space-y-6">
-      <h2 className="text-4xl font-bold text-center mb-8">Share your Button</h2>
-          <p className="text-gray-600 text-center mb-12">
+      <form id = "contact" ref={form} onSubmit={sendEmail} className="space-y-6 ">
+      <h2 className="text-4xl font-bold text-center mb-8 text-white">Share your Button</h2>
+          <p className="text-gray-600 text-center mb-12 text-white">
             If you have a button style you'd like to share, please fill out the form below and we'll share it with our community.
           </p>
 
@@ -203,7 +203,7 @@ const ContactForm = () => {
         value={formData.name}
         onChange={handleChange}
         required
-        className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+        className="block w-full rounded-md bg-transparent px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
       />
 
     </div>
@@ -219,7 +219,7 @@ const ContactForm = () => {
         value={formData.email}
         onChange={handleChange}
         required
-        className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+        className="block w-full rounded-md bg-transparent px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
       />
     </div>
   </div>
@@ -234,7 +234,7 @@ const ContactForm = () => {
         value={formData.social}
         onChange={handleChange}
         required
-        className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+        className="block w-full rounded-md bg-transparent px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
       />
     </div>
   </div>
@@ -249,7 +249,7 @@ const ContactForm = () => {
         value={formData.buttonName}
         onChange={handleChange}
         required
-        className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+        className="block w-full rounded-md bg-transparent px-3 py-1.5 text-base text-white outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
       />
 
     </div>

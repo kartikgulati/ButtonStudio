@@ -4,7 +4,7 @@ import Button from '../ui/Button';
 
 const Hero = () => {
   return (
-    <section id="home" className="bg-[#001524] text-white py-20" >
+    <section id="home" className="bg-[#001524] text-white py-1" >
 
 
 
@@ -43,7 +43,9 @@ const Hero = () => {
         
       </div>
     </div>
+    <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 w-auto m-4"></hr>
     </section>
+    
   );
 };
 

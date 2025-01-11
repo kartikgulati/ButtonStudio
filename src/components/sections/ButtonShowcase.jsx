@@ -4,11 +4,11 @@ import ButtonShowcaseData from '../ui/ButtonShowcaseData';
 
 function ButtonShowcase() {
   return (
-    <section id="buttons" className="py-20 bg-gradient-to-b from-gray-50 to-white">
+    <section id="buttons" className="py-20  bg-[#001524]">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4">Beautiful Button Collection</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-4xl font-bold mb-4 text-white">Beautiful Button Collection</h2>
+          <p className="text-white max-w-2xl mx-auto">
             Explore our collection of carefully crafted buttons, each designed with attention to detail
             and modern interaction patterns.
           </p>
@@ -21,6 +21,8 @@ function ButtonShowcase() {
 
         </div>
       </div>
+      
+
     </section>
   );
 }
