@@ -13,7 +13,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+    <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50 ">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">  
           <div className="flex items-center">
