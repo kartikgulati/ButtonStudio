@@ -185,7 +185,7 @@ const ContactForm = () => {
       </div>
         
       </div>
-      <div className="w-full md:w-1/2 flex items-center justify-center p-6">
+      <div className="w-full md:w-1/2 flex items-center justify-center p-6 bg-[#001524]">
       
       <form id = "contact" ref={form} onSubmit={sendEmail} className="space-y-6 ">
       <h2 className="text-4xl font-bold text-center mb-8 text-white">Share your Button</h2>
