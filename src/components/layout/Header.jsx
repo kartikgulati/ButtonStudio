@@ -6,19 +6,19 @@ const navLinks = [
   { href: "#home", label: "Home" },
   { href: "#features", label: "Features" },
   { href: "#buttons", label: "Buttons" },
-  { href: "#contact", label: "Contact" }
+  { href: "#contact", label: "Collaborate" }
 ];
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50 ">
+    <header className="fixed top-0 left-0 right-0 bg-[rgba(0,0,0,0.4)] [box-shadow:20px_20px_40px_-6px_rgba(0,0,0,0.2)] backdrop-filter backdrop-blur-[20px] z-50">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">  
           <div className="flex items-center">
             <Code className="h-8 w-8 text-indigo-600" />
-            <span className="ml-2 text-xl font-bold text-gray-800">ButtonStudio</span>
+            <span className="ml-2 text-xl font-bold text-white hover:text-indigo-600">ButtonStudio</span>
           </div>
           
           {/* Desktop Navigation */}
@@ -29,9 +29,9 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden ">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
-              {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                 {isMenuOpen ? <X className="h-6 w-6 bg-white" /> : <Menu className="h-6 w-6 text-white" />}
             </button>
           </div>
         </div>
