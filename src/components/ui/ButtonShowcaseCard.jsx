@@ -26,8 +26,8 @@ const ButtonShowcaseCard = ({ title, description, component, code, dev }) => {
         <button onClick={handleCopy}>
           <Copy color="#808080" size={18} />
         </button>
-        {isCopied && <span className="text-xs text-green-500 ml-2">Copied!</span>}
-      </div>
+        {isCopied && <span className="text-xs text-indigo-600 ml-2">Copied!</span>}
+      </div>  
 
       <h3 className="text-xl font-semibold mb-3">{title}</h3>
       <p className="text-gray-600 mb-1 text-sm">{description}</p>

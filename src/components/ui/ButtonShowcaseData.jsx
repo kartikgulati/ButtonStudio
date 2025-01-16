@@ -108,7 +108,7 @@ const ButtonShowcaseData = () => {
 <div className="flex flex-col items-center">
   
   <span className="text-sm text-gray-700 dark:text-gray-400">
-      Showing <span className="font-semibold text-gray-900">{currentPage}</span> of <span className="font-semibold text-gray-900 dark:text-gray">{totalPages}</span> Pages
+      Showing <span className="font-semibold text-white">{currentPage}</span> of <span className="font-semibold text-white dark:text-gray">{totalPages}</span> Pages
   </span>
   <div className="inline-flex mt-2 xs:mt-0">
     
