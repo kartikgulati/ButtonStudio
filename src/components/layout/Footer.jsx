@@ -12,10 +12,10 @@ const quickLinks = [
 ];
 
 const socialLinks = [
-  { icon: <Github className="h-6 w-6" />, href: "#" },
-  { icon: <Twitter className="h-6 w-6" />, href: "#" },
-  { icon: <Linkedin className="h-6 w-6" />, href: "#" },
-  { icon: <Mail className="h-6 w-6" />, href: "#" }
+  { icon: <Github className="h-6 w-6" />, href: "https://github.com/kartikgulati" },
+  { icon: <Twitter className="h-6 w-6" />, href: "https://x.com/KartikGulati14" },
+  { icon: <Linkedin className="h-6 w-6" />, href: "https://www.linkedin.com/in/kartik-gulati-a5636b17a/" },
+  { icon: <Mail className="h-6 w-6" />, href: "mailto:kartikgulati@email.com" }
 ];
 
 const Footer = () => {
@@ -92,7 +92,7 @@ const Footer = () => {
               </div>
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                  <div className="pace-x-4">
+                  <div className="pace-x-4 ">
                 {socialLinks.map((link, index) => (
                 <SocialLink key={index} {...link} />
               ))}
