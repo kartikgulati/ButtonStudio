@@ -18,7 +18,8 @@ const Header = () => {
         <div className="flex items-center justify-between">  
           <div className="flex items-center">
             <Code className="h-8 w-8 text-indigo-600" />
-            <span className="ml-2 text-xl font-bold text-white hover:text-indigo-600">ButtonStudio</span>
+            <a href="#home">
+              <span className="ml-2 text-xl font-bold text-white hover:text-indigo-600">ButtonStudio</span></a>
           </div>
           
           {/* Desktop Navigation */}
