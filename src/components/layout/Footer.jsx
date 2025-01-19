@@ -70,7 +70,7 @@ const Footer = () => {
     <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
-              <a href="#" className="flex items-center">
+              <a href="https://buttonstudio.netlify.app/" className="flex items-center">
                   <Code className="h-8 w-8 text-indigo-600" />
                   <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">&nbsp;ButtonStudio</span>
               </a>
