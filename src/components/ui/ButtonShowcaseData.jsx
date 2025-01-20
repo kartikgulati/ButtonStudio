@@ -9,6 +9,8 @@ import RoundedButton from '../ui/buttons/RoundedButton';
 import GlowButton from '../ui/buttons/GlowButton';
 import { buttonCode } from './buttonCode';
 
+import ColorShiftButton from './buttons/ColorShiftButton';
+
 const buttonShowcaseData = [
     {
       title: 'Primary Button',
@@ -16,21 +18,21 @@ const buttonShowcaseData = [
       
       component: <PrimaryButton>Click Me!</PrimaryButton>,
       code: buttonCode.primary,
-      dev: 'Kartik Gulati'
+      dev: 'kartikgulati14'
     },
     {
       title: 'Gradient Button',
       description: 'Beautiful gradient button with scale animation',
       component: <GradientButton>Get Started</GradientButton>,
       code: buttonCode.gradient,
-      dev: 'Kartik Gulati'
+      dev: 'kartikgulati14'
     },
     {
       title: 'Outline Button',
       description: 'Bordered button that fills on hover',
       component: <OutlineButton>Learn More</OutlineButton>,
       code: buttonCode.outline,
-      dev: 'Kartik Gulati'
+      dev: 'kartikgulati14'
     },
     {
       title: 'Icon Buttons',
@@ -42,28 +44,28 @@ const buttonShowcaseData = [
         </div>
       ),
       code: buttonCode.iconbutton,
-      dev: 'Kartik Gulati'
+      dev: 'kartikgulati14'
     },
     {
       title: 'Rounded Button',
       description: 'Pill-shaped button with scale effect',
       component: <RoundedButton>Subscribe Now</RoundedButton>,
       code: buttonCode.rounded,
-      dev: 'Kartik Gulati'
+      dev: 'kartikgulati14'
     },
     {
       title: 'Glow Button',
       description: 'Button with a pulsing glow effect',
       component: <GlowButton>Explore</GlowButton>,
       code: buttonCode.glow,
-      dev: 'Kartik Gulati'
+      dev: 'kartikgulati14'
     },
     {
-        title: 'Glow Button',
+        title: 'Color ShiftButton',
         description: 'Button with a pulsing glow effect',
-        component: <GlowButton>Explore</GlowButton>,
-        code: buttonCode.glow,
-        dev: 'Kartik Gulati'
+        component: <ColorShiftButton>Shift Color</ColorShiftButton>,
+        code: buttonCode.colorshiftbutton,
+        dev: 'kartikgulati14'
       }
 ];
 

@@ -32,7 +32,10 @@ const ButtonShowcaseCard = ({ title, description, component, code, dev }) => {
       <h3 className="text-xl font-semibold mb-3">{title}</h3>
       <p className="text-gray-600 mb-1 text-sm">{description}</p>
       <div className='mb-3'>
-        <p className="text-gray-600 mb-1 text-xs"><b>Developer:</b> @{dev}</p>
+        <p className="text-gray-600 mb-1 text-xs"><b>Developer:</b> 
+        <a href={`https://github.com/`} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-indigo-800 transition-colors">
+        @{dev}</a>
+        </p>
       </div>
       <div className="flex justify-center items-center min-h-[60px]">
         {component}
