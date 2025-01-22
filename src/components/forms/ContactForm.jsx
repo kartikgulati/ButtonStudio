@@ -243,7 +243,7 @@ const ContactForm = () => {
 
     <div className="mt-2 grid grid-cols-1">
       <FormInput
-        label="Button Name and Styledesicription"
+        label="Button Name and Style desicription"
         type="text"
         name="name"
         value={formData.buttonName}
