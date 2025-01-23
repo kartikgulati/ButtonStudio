@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Heart, Send } from 'lucide-react';
+import { Apple, Heart, Send } from 'lucide-react';
 import ButtonShowcaseCard from '../ui/ButtonShowcaseCard';
 import PrimaryButton from '../ui/buttons/PrimaryButton';
 import GradientButton from '../ui/buttons/GradientButton';
@@ -7,6 +7,7 @@ import OutlineButton from '../ui/buttons/OutlineButton';
 import IconButton from '../ui/buttons/IconButton';
 import RoundedButton from '../ui/buttons/RoundedButton';
 import GlowButton from '../ui/buttons/GlowButton';
+import ApplePaybutton from '../ui/buttons/ApplePaybutton';
 import { buttonCode } from './buttonCode';
 
 import ColorShiftButton from './buttons/ColorShiftButton';
@@ -66,7 +67,15 @@ const buttonShowcaseData = [
         component: <ColorShiftButton>Shift Color</ColorShiftButton>,
         code: buttonCode.colorshiftbutton,
         dev: 'kartikgulati14'
+      },
+      {
+        title: 'Apple Pay Button',
+        description: 'Apple Pay button with icon and text',
+        component: <ApplePaybutton>Apple Pay</ApplePaybutton>,
+        code: buttonCode.applepaybutton,
+        dev: 'kartikgulati14'
       }
+
 ];
 
 
