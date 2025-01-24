@@ -8,7 +8,8 @@ const quickLinks = [
   { href: "#home", label: "Home" },
   { href: "#features", label: "Features" },
   { href: "#buttons", label: "Buttons" },
-  { href: "#contact", label: "Contact" }
+  { href: "#contact", label: "Contact" },
+  { href: "#aboutdev", label: "About Developer" }
 ];
 
 const socialLinks = [
