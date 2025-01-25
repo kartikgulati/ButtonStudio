@@ -7,7 +7,7 @@ const navLinks = [
   { href: "#features", label: "Features" },
   { href: "#buttons", label: "Buttons" },
   { href: "#contact", label: "Collaborate" },
-  { href: "#Moretools", label: "More Tools" }
+  { href: "https://kartikgulati.netlify.app/", label: "More Tools" }
 ];
 
 const Header = () => {

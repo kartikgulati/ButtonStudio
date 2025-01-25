@@ -9,7 +9,7 @@ const quickLinks = [
   { href: "#features", label: "Features" },
   { href: "#buttons", label: "Buttons" },
   { href: "#contact", label: "Contact" },
-  { href: "#aboutdev", label: "About Developer" }
+  { href: "https://kartikgulati.netlify.app/", label: "About Developer" }
 ];
 
 const socialLinks = [
