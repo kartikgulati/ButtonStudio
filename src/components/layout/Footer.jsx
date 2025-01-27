@@ -1,7 +1,8 @@
 import React from 'react';
 import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
 import SocialLink from './SocialLink';
-import { Menu, X, Code } from 'lucide-react';
+import { Menu, X, Code, SiX } from 'lucide-react';
+
 
 
 const quickLinks = [
@@ -93,9 +94,11 @@ const Footer = () => {
               </div>
               <div>
                   <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
+                    
                   <div className="pace-x-4 ">
                 {socialLinks.map((link, index) => (
                 <SocialLink key={index} {...link} />
+                
               ))}
             </div>
               </div>
