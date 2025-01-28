@@ -1,8 +1,8 @@
 import React from 'react';
 import { Github, Twitter, Linkedin, Mail } from 'lucide-react';
 import SocialLink from './SocialLink';
-import { Menu, X, Code, SiX } from 'lucide-react';
-
+import { Menu, X, Code } from 'lucide-react';
+import { BsTwitterX } from 'react-icons/bs';
 
 
 const quickLinks = [
@@ -15,7 +15,8 @@ const quickLinks = [
 
 const socialLinks = [
   { icon: <Github className="h-6 w-6" />, href: "https://github.com/kartikgulati" },
-  { icon: <Twitter className="h-6 w-6" />, href: "https://x.com/KartikGulati14" },
+  // { icon: <Twitter className="h-6 w-6" />, href: "https://x.com/KartikGulati14" },
+  { href: "https://x.com/KartikGulati14", icon: <BsTwitterX className='h-6 w-6'/>, label: "Twitter" },
   { icon: <Linkedin className="h-6 w-6" />, href: "https://www.linkedin.com/in/kartik-gulati-a5636b17a/" },
   { icon: <Mail className="h-6 w-6" />, href: "mailto:kartikgulati@email.com" }
 ];
