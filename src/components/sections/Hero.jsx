@@ -26,8 +26,8 @@ const Hero = () => {
 
       <div className="w-full md:w-1/2 flex items-center justify-center p-6">
       <div className="text-center mt-10">
-          <h1 className="text-5xl md:text-6xl font-bold mb-8">Welcome to ButtonStudio</h1>
-          <p className="text-xl mb-12 text-indigo-100">Beautiful web library of button components. Built on top of the power of React and Tailwind CSS. <br/>Customize, create, and share.</p>
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Welcome to ButtonStudio</h1>
+          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-40 dark:text-gray-400">Beautiful web library of button components. Built on top of the power of React and Tailwind CSS. <br/>Customize, create, and share.</p>
           <div className="flex flex-wrap justify-center gap-4">
 
             <a href="#buttons"><Button variant="primary" cal >Get Started</Button></a> 
